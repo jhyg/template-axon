@@ -5,8 +5,7 @@ path: {{boundedContext.name}}/{{{options.packagePath}}}/command
 package {{options.package}}.command;
 
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
-{{#checkDateType aggregate.aggregateRoot.fieldDescriptors}} {{/checkDateType}}
-{{#checkBigDecimal aggregate.aggregateRoot.fieldDescriptors}} {{/checkBigDecimal}}
+
 
 import lombok.Data;
 import lombok.ToString;
